@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav,
+.log,
+.content,
+.skil-hed,
+.con-skil,
+.contact-hed,
+.cont-contact {
+    display: flex;
+}
+
+header {
+background-image:url(../img/girl-gc49dadf10_1920.jpg);    background-size: cover;
+    height: 100vh;
+    filter: saturate(.7);
+    margin-bottom: 5%;
+}
+
+.nav {
+    justify-content: flex-end;
+}
+
+.log {
+    justify-content: flex-start;
+}
+
+nav a {
+    color: #c31432;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.tex {
+    color: #c31432;
+}
+
+a {
+    margin: 5px;
+}
+
+nav .me:hover {
+    color: #eee;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Londrina Solid', cursive;
+    color: #eee;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+
+header i {
+    color: #c31432;
+}
+
+/* end header */
+.home {
+    color: #fff;
+    position: relative;
+}
+
+.home h1 {
+    position: absolute;
+}
+
+.home h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #c31432;
+    font-size: 60px;
+    position: absolute;
+    left: 9.5%;
+    top: 75px;
+}
+
+.home h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 30px;
+
+}
+
+.home h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 160px;
+
+}
+
+.butn {
+    text-transform: capitalize;
+    font-weight: bold;
+    position: absolute;
+    left: 10%;
+    top: 220px;
+    text-decoration: none;
+    background-color: #c31432;
+    color: #fff;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.butn:hover {
+    color: #c31432;
+    background-color: #fff;
+}
+
+.about {
+    background-color: #eee;
+}
+
+.about .logo {
+    text-transform: uppercase;
+    font-family: 'Londrina Solid', cursive;
+    color: #c31432;
+    letter-spacing: 5px;
+    padding: 5px;
+    background-color: rgb(218, 218, 218);
+
+}
+
+.about .tex {
+    color: #000;
+}
+
+.hed-about {
+    justify-content: center;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.hed-about h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hed-about .tex {
+    color: #c31432;
+}
+
+.hed-about h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #c31432;
+}
+
+.hed-about h6 i {
+    color: #000;
+}
+
+.img-cont {
+    width: 50%;
+    height: 50%;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+
+.img-cont img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.title-cont {
+    justify-content: flex-end;
+    width: 60%;
+    padding: 15px;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.title-cont p {
+    color: rgb(143, 143, 143);
+    margin-bottom: 7%;
+    width: fit-content;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.butns {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #c31432;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.butns:hover {
+    color: #c31432;
+    background-color: gray;
+}
+
+.tet {
+    font-weight: bolder;
+    color: #e40026;
+}
+
+/* end about */
+.skills {
+    margin-top: 5%;
+}
+
+.skills .logo {
+    text-transform: uppercase;
+    font-family: 'Londrina Solid', cursive;
+    color: #c31432;
+    letter-spacing: 5px;
+    padding: 5px;
+    background-color: rgb(59, 58, 58);
+}
+
+.skills .tex {
+    color: #fff;
+}
+
+.skil-hed {
+    justify-content: center;
+    margin-top: 1%;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.skil-hed .me {
+    color: #c31432;
+}
+
+.skil-hed h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.skil-hed h6 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #c31432;
+}
+
+.skil-hed h6 i {
+    color: #000;
+}
+
+.con-skil {
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.title-skil {
+    width: 50%;
+    padding: 10px;
+}
+
+.title-skil h5 {
+    margin-bottom: 5%;
+}
+
+.title-skil p {
+    color: rgb(143, 143, 143);
+    margin-bottom: 7%;
+
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.exprince {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.progres p {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: start;
+
+}
+
+.progress {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    background-color: #2facff;
+    display: flex;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress span {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 20px;
+}
+
+.css {
+    color: #000;
+    font-weight: bold;
+    margin: 1px;
+    text-align: center;
+    width: 80%;
+    background-color: #38e032;
+}
+
+.java {
+    color: #000;
+    font-weight: bold;
+    margin: 1px;
+    width: 40%;
+
+    text-align: center;
+    background-color: #eafb4b;
+}
+
+.bot {
+    color: #000;
+    font-weight: bold;
+    margin: 1px;
+    text-align: center;
+    width: 90%;
+    background-color: #e66814;
+}
+
+.git {
+    color: #000;
+    font-weight: bold;
+    margin: 1px;
+    text-align: center;
+    background-color: #b03aff;
+    width: 70%;
+}
+
+.contact {
+    margin-top: 5%;
+    background-color: rgb(53, 52, 52);
+}
+
+.contact .logo {
+    text-transform: uppercase;
+    font-family: 'Londrina Solid', cursive;
+    color: #eee;
+    letter-spacing: 5px;
+    padding: 5px;
+    background-color: #000
+}
+
+.contact .tex {
+    color: #c31432
+}
+
+.contact-hed {
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact-hed h2 {
+    font-size: 40px;
+    color: #eee;
+}
+
+.contact-hed h6 {
+    font-size: 25px;
+    color: #eee;
+
+}
+
+.contact-hed .me {
+    color: #c31432;
+}
+
+.cont-contact h3,
+p {
+    color: #eee;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.cont-contact h6 {
+
+    color: #c31432;
+    text-transform: capitalize;
+}
+
+.personal {
+    width: 50%;
+    margin: 10px;
+}
+
+.personal span {
+    color: #c31432;
+}
+
+.masge {
+    width: 50%;
+}
+
+
+.masge span {
+    color: #c31432;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin: 5%
+}
+
+form button {
+    background-color: #e40026;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-color: black;
+    text-transform: uppercase;
+}
